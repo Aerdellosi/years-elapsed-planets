@@ -12,7 +12,8 @@ export class UserAgeInterval {
 
 export const yearsElapsedPlanets = {
     yearsElapsedMars: (earthYearsElapsed) => {
-        const martianYears = earthYearsElapsed * (687/365);
+        let martianYears = earthYearsElapsed * (365/687);
+        martianYears = (Math.round(martianYears * 100)) / 100;
         return martianYears;
     }
 }
