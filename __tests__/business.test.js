@@ -6,5 +6,11 @@ describe("UserAgeInterval", () => {
         expect(newUser1.initialAge).toEqual(12);
         expect(newUser1.endingAge).toEqual(34);
     });
+    test("should use a method to calculate interval difference", () => {
+        const newUser1 = new UserAgeInterval(12, 34);
+        const intervalDifference = newUser1.findIntervalDifference();
+        expect(intervalDifference).toEqual(22);
+
+    });
 
 });

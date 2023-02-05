@@ -4,6 +4,10 @@ export class UserAgeInterval {
         this.initialAge = initialAge;
         this.endingAge = endingAge;
     }
+    findIntervalDifference() {
+        const intervalDifference = this.endingAge - this.initialAge;
+        return intervalDifference;
+    }
 }
 
 
