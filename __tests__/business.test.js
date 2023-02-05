@@ -1,4 +1,4 @@
-import { UserAgeInterval } from "../src/business";
+import { UserAgeInterval, yearsElapsedPlanets } from "../src/business";
 
 describe("UserAgeInterval", () => {
     test("should create a user object with age interval", () => {
@@ -10,7 +10,16 @@ describe("UserAgeInterval", () => {
         const newUser1 = new UserAgeInterval(12, 34);
         const intervalDifference = newUser1.findIntervalDifference();
         expect(intervalDifference).toEqual(22);
+    });
 
+});
+
+describe("yearsElapsedPlanets", () => {
+    test("should calculate years elapsed on mars given earth years interval", () => {
+        const newUser1 = new UserAgeInterval(12, 34);
+        const intervalDifference = newUser1.findIntervalDifference();
+        const marsYearsTotal = yearsElapsedPlanets.yearsElapsedMars(intervalDifference);
+        expect(marsYearsTotal).toEqual(11.69);
     });
 
 });
