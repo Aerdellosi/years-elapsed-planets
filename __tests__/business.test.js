@@ -22,5 +22,12 @@ describe("yearsElapsedPlanets", () => {
         console.log(marsYearsTotal);
         expect(marsYearsTotal).toEqual(11.69);
     });
+    test("should calculate years elapsed on earth given earth years interval", () => {
+        const newUser1 = new UserAgeInterval(12, 34);
+        const intervalDifference = newUser1.findIntervalDifference();
+        const earthYearsTotal = yearsElapsedPlanets.yearsElapsedEarth(intervalDifference);
+        expect(earthYearsTotal).toEqual(22);
+
+    })
 
 });
