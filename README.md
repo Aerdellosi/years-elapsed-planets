@@ -32,8 +32,8 @@
 ///////////////////////
 ///////////////////////
 
-Installing all packages with $ npm install.
-Building the project using webpack with $ npm run build
-Starting a development server with $ npm run start
-Linting JS files in the src folder with $ npm run lint
-Running tests with Jest using $ npm run test
+//Installing all packages with $ npm install.
+//Building the project using webpack with $ npm run build
+//Starting a development server with $ npm run start
+//Linting JS files in the src folder with $ npm run lint
+//Running tests with Jest using $ npm run test
