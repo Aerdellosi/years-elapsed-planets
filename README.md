@@ -1,32 +1,33 @@
-# (Application Name)
+# Years Elapsed Calculator For Planets
 
-#### (Brief Description of Application)
+#### A calculator that determines the years elapsed for several planets relative to earth years based on user input.
 
-#### By (Your Name Here)
+#### By Aerdellosi
 
 ## Technologies Used
 
-- _List all_
-- _the major technologies_
-- _you used in your project_
-- _here_
+- Javascript
+- HTML
+- CSS
+- Node.js
+- NPM
+- Jest
 
-## Description
+## BUSINESS LOGIC ONLY: A calculator that determines the years elapsed for several planets relative to earth years based on user input.
 
 ## Setup/Installation Requirements
 
-- _This is a great place_
-- _to list setup instructions_
-- _in a simple_
-- _easy-to-understand_
-- _format_
-
+- Download vscode.
+- Install Node.js
+- Install NPM -- see package.js for a list of dependencies.
+- Install Jest.
 ## Known Bugs
 
-- _Any known issues_
-- _should go here_
+- None.
 
 ## License
+
+- None.
 
 ///////////////////////
 ///////////////////////
