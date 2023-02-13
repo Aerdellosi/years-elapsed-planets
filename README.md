@@ -20,7 +20,11 @@
 - Download vscode.
 - Install Node.js
 - Install NPM -- see package.js for a list of dependencies.
+- Install deps with $ npm install.
+- Build with $ npm run build (produces dist, the minified directory).
+- Start dev server with $ npm run start.
 - Install Jest.
+- Run tests with $ npm run test.
 ## Known Bugs
 
 - None.
@@ -28,12 +32,3 @@
 ## License
 
 - None.
-
-///////////////////////
-///////////////////////
-
-//Installing all packages with $ npm install.
-//Building the project using webpack with $ npm run build
-//Starting a development server with $ npm run start
-//Linting JS files in the src folder with $ npm run lint
-//Running tests with Jest using $ npm run test
